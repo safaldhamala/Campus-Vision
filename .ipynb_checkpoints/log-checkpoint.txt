@@ -1,0 +1,59 @@
+Copyright by CSE AI Club
+This dataset can't be distributed anywhere without permission of Mississippi State University and CSE AI Club.
+
+Dataset Summary:
+============================================================
+
+Building: Butler Hall
+------------------------------------------------------------
+Total number of images: 1167
+
+Building: Carpenter Hall
+------------------------------------------------------------
+Total number of images: 1198
+
+Building: Lee Hall
+------------------------------------------------------------
+Total number of images: 1261
+
+Building: McCain Hall
+------------------------------------------------------------
+Total number of images: 1277
+
+Building: McCool Hall
+------------------------------------------------------------
+Total number of images: 1354
+
+Building: Old Main
+------------------------------------------------------------
+Total number of images: 1362
+
+Building: Simrall Hall
+------------------------------------------------------------
+Total number of images: 1190
+
+Building: Student Union
+------------------------------------------------------------
+Total number of images: 1337
+
+Building: Swalm Hall
+------------------------------------------------------------
+Total number of images: 1361
+
+Building: Walker Hall
+------------------------------------------------------------
+Total number of images: 1260
+
+Normalization Statistics for the Dataset:
+Mean (RGB): [0.46079967214138484, 0.46104556926356555, 0.4559120253283609]
+Standard Deviation (RGB): [0.23117445026151823, 0.22748220382304327, 0.2637965208115187]
+
+To use these statistics for normalization, you can normalize the images with:
+mean = [0.46079967214138484, 0.46104556926356555, 0.4559120253283609]
+std = [0.23117445026151823, 0.22748220382304327, 0.2637965208115187]
+
+For example, in PyTorch:
+transform = transforms.Compose([
+    transforms.ToTensor(),
+    transforms.Normalize(mean=[0.46079967214138484, 0.46104556926356555, 0.4559120253283609], std=[0.23117445026151823, 0.22748220382304327, 0.2637965208115187])
+])

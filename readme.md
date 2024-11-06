@@ -2,5 +2,5 @@
 
 ## Model Description
 
-### simpleCNN
-- RESNET18 model
+### ResNet18
+-
