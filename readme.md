@@ -24,7 +24,7 @@ This project focuses on building an image classification model to identify and c
 
 ### Model Performance
 After training, the model achieved:
-- **Validation Accuracy**: _e.g., 85% (update with actual results)_
+- **Validation Accuracy**: 99.21%_
 - **Metrics**:
   - **Precision**: _e.g., 0.88 (update with actual results)_
   - **Recall**: _e.g., 0.86 (update with actual results)_
