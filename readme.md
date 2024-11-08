@@ -19,7 +19,7 @@ This project focuses on building an image classification model to identify and c
    - This model was fine-tuned on our dataset for optimal results.
 
 3. **Training Process**:
-   - The model was trained using Cross-Entropy Loss and optimized with Stochastic Gradient Descent (SGD).
+   - The model was trained using Cross-Entropy Loss and optimized with Adam optimizer.
    - The model was evaluated across 10 epochs, with metrics calculated for training and validation phases.
 
 ### Model Performance
