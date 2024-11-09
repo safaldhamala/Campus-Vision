@@ -33,6 +33,6 @@ After training, the model achieved:
   - **F1 Score**: 0.9849
   - **Log Loss**: 0.0545
 ## Requirements
-To run the project, install the dependencies listed in `requirements.txt`:
+To run the project, install the dependencies listed in `requirements.txt` and run the Jupyter Notebook file "**resnet-pretrained.ipynb**":
 ```bash
 pip install -r requirements.txt
