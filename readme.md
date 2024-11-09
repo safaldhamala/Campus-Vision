@@ -13,24 +13,25 @@ This project focuses on building an image classification model to identify and c
 1. **Data Preprocessing**:
    - The dataset was organized into folders based on building names, with each folder representing a class.
    - Data augmentation techniques such as random cropping, horizontal flipping, and normalization were applied to enhance generalization and prevent overfitting.
-  
+
 2. **Model Architecture**:
    - We used the pre-trained **ResNet-18** model, replacing its final layer to match the number of classes in our dataset.
    - This model was fine-tuned on our dataset for optimal results.
 
 3. **Training Process**:
-   - The model was trained using Cross-Entropy Loss and optimized with Adam optimizer.
-   - The model was evaluated across 10 epochs, with metrics calculated for training and validation phases.
+   - The model was trained using Cross-Entropy Loss and optimized with SDG optimizer.
+   - The model was evaluated across 15 epochs, with metrics calculated for training and validation phases.
+   - We trained some models with limited amount of data to tune the hyperparameters.
+   - The final model took nearly 8 hours to train on a CPU with 16 cores and 128 GB of RAM.
 
 ### Model Performance
 After training, the model achieved:
-- **Validation Accuracy**: 99.21%_
+- **Validation Accuracy**: 98.49%
 - **Metrics**:
-  - **Precision**: _e.g., 0.88 (update with actual results)_
-  - **Recall**: _e.g., 0.86 (update with actual results)_
-  - **F1 Score**: _e.g., 0.87 (update with actual results)_
-  - **Log Loss**: _e.g., 0.45 (update with actual results)_
-
+  - **Precision**: 0.9850
+  - **Recall**: 0.9849
+  - **F1 Score**: 0.9849
+  - **Log Loss**: 0.0545
 ## Requirements
 To run the project, install the dependencies listed in `requirements.txt`:
 ```bash
