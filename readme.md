@@ -22,7 +22,7 @@ This project focuses on building an image classification model to identify and c
    - The model was trained using Cross-Entropy Loss and optimized with SDG optimizer.
    - The model was evaluated across 15 epochs, with metrics calculated for training and validation phases.
    - We trained some models with limited amount of data to tune the hyperparameters.
-   - The final model took nearly 8 hours to train on a CPU with 16 cores and 128 GB of RAM.
+   - **The final model took nearly 8 hours to train on a CPU with 16 cores and 128 GB of RAM.**
 
 ### Model Performance
 After training, the model achieved:
