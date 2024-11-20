@@ -1,8 +1,6 @@
 # Campus Vision Challenge - Image Classification
 
-## Team Details
-- **Team Name**: team1
-- **Members**:
+## Contributors:
   - Safal Dhamala
   - Lalit Yadav
 
